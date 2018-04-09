@@ -5,7 +5,7 @@ var apiKey = "WzJFIWuFzLiEZ87B8f8Af2OH844AF5Dj";
 var tag = "sleepy"; 
 var api = "https://" + host + path + "?api_key=" + apiKey + "&tag=" + tag;
 
-// show random GIF
+// shows random GIF
 function showGif() {
     $.getJSON(api, function(giphy) {
         gifUrl = giphy.data.image_original_url;
@@ -18,7 +18,7 @@ function removeGif() {
     $('#img-container img').remove();
 }
 
-// switching GIFs
+// switches GIF
 function changeGif() {
     // previous GIF
     removeGif();
@@ -26,12 +26,12 @@ function changeGif() {
     showGif();
 }
 
-// show first GIF on page load    
+// shows first GIF on loading page   
 $(document).ready(function() {
     showGif();
 });
 
-// change GIF on button click
+// changes GIF when clicked on button
 $("button").click(function() {
     changeGif();
 });
