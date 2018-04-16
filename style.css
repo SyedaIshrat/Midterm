@@ -11,24 +11,11 @@ body {
 /* inside */
 div#wrapper {
   width: 550px;
-  height: 550px;
-  background-image: url('http://tianyihengfeng.com/wp-content/uploads/2016/05/faded-background.jpg');
+  height: 700px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd_dSQu1K7F0dhdpdrPCHEC7nMhNMnZcXDPt2auyzrTkmrHgvd');
   padding: 20px;
   margin: 250px;
 }
-
-<<<<<<< HEAD
-header {
-  height: 120px;
-}
-
-main {
-  height: 300px;
-  color: red;
-}
-=======
-
->>>>>>> 00e367b34e9636608bca9875de47fc06c9ee2296
 
 div#img-container {
   display: flex;
@@ -38,16 +25,24 @@ div#img-container {
 }
 
 h1 {
+  letter-spacing: 0px;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Courier New';
   color: #3973ac;
-  font-size: 35px;
+  font-size: 55px;
 }
 
 h1 span {
-  font-family: 'Titillium Web', sans-serif;
-  color: #009999;
-  font-size: 45px;
+  margin-left: -30px;
+  font-family: 'impact';
+  color: darkviolet;
+  font-size: 35px;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    color: aquamarine;
 }
 
 img {
