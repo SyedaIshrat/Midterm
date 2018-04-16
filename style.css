@@ -17,11 +17,12 @@ div#wrapper {
 }
 
 header {
-  height: 80px;
+  height: 120px;
 }
 
 main {
   height: 440px;
+  color: red;
 }
 
 div#img-container {
@@ -60,7 +61,7 @@ button {
   background-color: #003333;
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
-  color: #FFF;
+  color: indianred;
   padding: 10px 20px;
   cursor: pointer;
   border: none;
