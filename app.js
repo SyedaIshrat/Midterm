@@ -7,7 +7,7 @@ var api = "https://" + host + path + "?api_key=" + apiKey + "&tag=" + tag;
 var bkg = "https://" + host + path + "?api_key=" + apiKey + "&tag=" + tag2;
 
 var audio = new Audio();
-const tracks = ['music/tunes.mp3', 'music/nextsong.mp3', 'music/thirdsong/mp3'];
+const tracks = ['music/tunes.mp3', 'music/tunes2.mp3', 'music/tunes3.mp3','music/tunes4.mp3','music/tunes5.mp3'];
 let trackCount = 0;
 
 
