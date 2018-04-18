@@ -2,8 +2,8 @@
 var host = "api.giphy.com";
 var path = "/v1/gifs/random";
 var apiKey = "WzJFIWuFzLiEZ87B8f8Af2OH844AF5Dj"; 
-var tag = "fire";
-var tag2 = "water"; 
+var tag = "sleepy";
+var tag2 = "fire"; 
 var api = "https://" + host + path + "?api_key=" + apiKey + "&tag=" + tag;
 var bkg = "https://" + host + path + "?api_key=" + apiKey + "&tag=" + tag2;
 
